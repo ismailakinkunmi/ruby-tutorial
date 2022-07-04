@@ -5,8 +5,14 @@
 # print "How much do you weigh? "
 # weight = gets.chomp
 
-print "about yourself?"
-name = gets.chomp
-age = gets.chomp
-weight = gets.chomp
-puts "So, you're #{name} years old, #{age} tall and #{weight} heavy."
+# print "about yourself?"
+# name = gets.chomp
+# age = gets.chomp
+# weight = gets.chomp
+# puts "So, you're #{name} years old, #{age} tall and #{weight} heavy."
+
+print 'how old are you ?'
+
+age = gets.to_i
+
+p age

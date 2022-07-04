@@ -12,4 +12,4 @@ name = $stdin.gets.chomp
 print "how old are you ? "
 age = gets.chomp
 
-puts "my name is #{name} and I am #{age} years old"
+print "my name is #{name} and I am #{age} years old"

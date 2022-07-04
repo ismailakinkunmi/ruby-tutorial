@@ -16,7 +16,7 @@ def print_none()
   puts "I got nothin'."
 end
 
-print_two("ismail", "abiola")
-print_two("aduke", "oyin")
-print_one("bola")
-print_none()
+# print_two("ismail", "abiola")
+# print_two("aduke", "oyin")
+# print_one("bola")
+# print_none()

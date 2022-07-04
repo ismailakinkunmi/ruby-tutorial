@@ -1,10 +1,10 @@
-print "Give me a number: "
+print %q{Give me a number: } 
 number = gets.chomp.to_i
 
 bigger = number * 2
 puts "A bigger number is #{bigger}."
 
-print "Give me another number: "
+print %{Give me another number:}
 another = gets.chomp
 number = another.to_i
 

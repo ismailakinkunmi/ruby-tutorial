@@ -1,9 +1,11 @@
 input_file = ARGV.first
 
+# read a file content
 def print_all(f)
   puts f.read
 end
 
+#start from index 0 again
 def rewind(f)
   f.seek(0)
 end
